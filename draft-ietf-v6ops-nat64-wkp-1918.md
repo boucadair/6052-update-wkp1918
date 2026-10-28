@@ -123,7 +123,7 @@ In particular, allowing translators to use the WKP to represent
 private IPv4 addresses ([RFC1918], [RFC6598]) will improve
 the utility of the WKP in enterprise networks, in particular.
 
-This document updates {{!RFC6052}} to relax a restriction on the use of the WKP ({{update}}).
+This document updates {{!RFC6052}} to relax a restriction on the use of the WKP ({{update}}). {{sec-example}} provides examples to illustrate the updated behavior.
 
 # Conventions and Definitions
 
@@ -266,7 +266,7 @@ As noted in Erratum 5547 [eid5547]:
 
 Removing the restriction in {{Section 3.1 of RFC6052}} addresses this errata.
 
-# Example Flow
+# Example Flow {#sec-example}
 
 To illustrate the updated normative behavior, consider an IPv6-only network
 utilizing 464XLAT {{?RFC6877}} where an administrator want to provide access to
