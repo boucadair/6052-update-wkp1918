@@ -47,7 +47,7 @@ informative:
   RFC6877:
   RFC6890:
   RFC7050:
-  RFC8781:  
+  RFC8781:
   RFC8215:
   EID5547:
     title: "Errata ID 5547: NAT64 Well-Known Prefix SHOULD NOT be used for Private Use IPv4 Addresses"
