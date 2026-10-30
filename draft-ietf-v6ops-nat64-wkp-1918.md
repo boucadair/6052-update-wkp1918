@@ -226,7 +226,7 @@ use the WKP to maximize compatibility.
 Given that distinct behaviors may be exposed by existing and future implementations, it is RECOMMENDED that managed translators
 support a mechanism to expose their default value for handling non-global addresses (e.g., as a managed object such as a YANG augmentation to {{?RFC8512}}).
 
-Moreover, operators SHOULD ensure (e.g., by enforcing explicit configuration or using mechanism described in {{Section 4.6.4 of ?RFC8158}}) that their managed translations are compliant with the intended policy for packets with non-global addresses. 
+Moreover, operators SHOULD ensure (e.g., by enforcing explicit configuration or using mechanism described in {{Section 4.6.4 of ?RFC8158}}) that their managed translations are compliant with the intended policy for packets with non-global addresses.
 
 These recommendations may not be easily followed for unmanaged translators (e.g., CLAT).
 
