@@ -218,7 +218,7 @@ prefix as defined in [RFC8215].
 
 ## Monitoring Translator Behaviors
 
-Given that distinct behaviors may be exposed by existing and future implementations, it is RECOMMENDED that translators
+Given that distinct behaviors may be exposed by existing and future implementations, it is RECOMMENDED that managed translators
 support a mechanism to expose their default value for handling non-global addresses (e.g., as a managed object such as a YANG augmentation to {{?RFC8512}}).
 
 Moreover, operators SHOULD enable mechanisms (e.g., {{Section 4.6.4 of ?RFC8158}}) to detect when some translations are not compliant with the intended policy for packets with non-global addresses. Mismatches will trigger corrective actions and thus operators will adjust the configuration of a translator accordingly.
