@@ -221,7 +221,7 @@ prefix as defined in [RFC8215].
 Given that distinct behaviors may be exposed by existing and future implementations, it is RECOMMENDED that managed translators
 support a mechanism to expose their default value for handling non-global addresses (e.g., as a managed object such as a YANG augmentation to {{?RFC8512}}).
 
-Moreover, operators SHOULD enable mechanisms (e.g., {{Section 4.6.4 of ?RFC8158}}) to detect when some translations are not compliant with the intended policy for packets with non-global addresses. Mismatches will trigger corrective actions and thus operators will adjust the configuration of a translator accordingly.
+Moreover, operators SHOULD ensure (e.g., by enforcing explicit configuration or using mechanism described in {{Section 4.6.4 of ?RFC8158}}) that their managed translations are compliant with the intended policy for packets with non-global addresses. 
 
 These recommendations may not be easily followed for unmanaged translators (e.g., CLAT).
 
