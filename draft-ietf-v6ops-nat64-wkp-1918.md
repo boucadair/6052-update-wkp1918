@@ -216,6 +216,11 @@ IPv4 address is not prohibited by [RFC6052]. The changes specified in
 this document are not impactful to networks using NSPs or the Local-Use	
 prefix as defined in [RFC8215].
 
+As discussed in [Introduction](#introduction), utilizing an NSP or
+the Local-Use prefix will typically prevent the use of a public DNS64
+resolver in the vast majority of cases, as large scale public DNS64 resolvers
+use the WKP to maximize compatibility.
+
 ## Monitoring Translator Behaviors
 
 Given that distinct behaviors may be exposed by existing and future implementations, it is RECOMMENDED that managed translators
